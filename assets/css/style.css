@@ -6,17 +6,17 @@
 
 @font-face {
     font-family: PressStart2P;
-    src: url(/assets/fonts/PressStart2P/PressStart2P-Regular.ttf);
+    src: url(../assets/fonts/PressStart2P/PressStart2P-Regular.ttf);
 }
 
 @font-face {
     font-family: Tomorrow;
-    src: url(/assets/fonts/Tomorrow/Tomorrow-Thin.ttf);
+    src: url(../assets/fonts/Tomorrow/Tomorrow-Thin.ttf);
 }
 
 @font-face {
     font-family: Vt323;
-    src: url(/assets/fonts/VT323/VT323-Regular.ttf);
+    src: url(../assets/fonts/VT323/VT323-Regular.ttf);
 }
 
 .h_family {
@@ -28,7 +28,7 @@
 /* header */
 
 header {
-    background-image: url(/assets/img/background_header.png);
+    background-image: url(../assets/img/background_header.png);
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -148,7 +148,7 @@ img:hover {
 /* footer */
 
 footer {
-    background-image: url(/assets/img/background_header.png);
+    background-image: url(../assets/img/background_header.png);
     background-size: cover;
     display: flex;
     }
