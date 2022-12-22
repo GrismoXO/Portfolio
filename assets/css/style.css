@@ -25,6 +25,7 @@
     font-family: 'PressStart2P', sans-serif;
     margin-top: 0;
     font-size: 36px;
+    margin-bottom: 2rem;
 }
 
 
@@ -110,6 +111,7 @@ section {
 .section_margin {
     margin: 12rem 0;
 }
+
 
 article {
     display: flex;
