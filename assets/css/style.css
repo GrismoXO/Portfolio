@@ -18,7 +18,7 @@
 
 @font-face {
     font-family: Vt323;
-    src: url(/assets/fonts/VT323/VT323-Regular.ttf);
+    src: url(../fonts/VT323/VT323-Regular.ttf);
 }
 
 .h_family {
@@ -129,7 +129,7 @@ main img {
     object-fit: cover;
 }
 
-main p {
+.p_family {
     font-family: 'Vt323', sans-serif;
     font-size: 30px;
 }
@@ -289,7 +289,7 @@ footer {
         margin-bottom: 1rem;
     }
 
-    p {
+    .p_family {
         text-align: center;
     }
 
