@@ -313,13 +313,13 @@ footer {
 @media screen and (max-width: 764px) {
     
     body {
-        width: 100vw;
+        width: 100vh;
         height: 100vh;
     }
 
     section {
         margin-bottom: auto;
-        padding: auto;
+        padding: 0;
     }
 
     article {
@@ -332,8 +332,8 @@ footer {
     }
     
     .section_margin {
-        margin: auto;
-        padding: auto;
+        margin: 0;
+        padding: 0;
     }
     
     .article_two {
