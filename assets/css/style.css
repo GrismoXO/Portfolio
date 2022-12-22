@@ -310,7 +310,7 @@ footer {
 }
 
 /* phone */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 764px) {
     
     body {
         width: 100vh;
