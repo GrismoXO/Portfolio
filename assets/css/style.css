@@ -6,17 +6,17 @@
 
 @font-face {
     font-family: PressStart2P;
-    src: url(../assets/fonts/PressStart2P/PressStart2P-Regular.ttf);
+    src: url(../fonts/PressStart2P/PressStart2P-Regular.ttf);
 }
 
 @font-face {
     font-family: Tomorrow;
-    src: url(../assets/fonts/Tomorrow/Tomorrow-Thin.ttf);
+    src: url(../fonts/Tomorrow/Tomorrow-Thin.ttf);
 }
 
 @font-face {
     font-family: Vt323;
-    src: url(../assets/fonts/VT323/VT323-Regular.ttf);
+    src: url(/assets/fonts/VT323/VT323-Regular.ttf);
 }
 
 .h_family {
@@ -28,7 +28,7 @@
 /* header */
 
 header {
-    background-image: url(../assets/img/background_header.png);
+    background-image: url(../img/background_header.png);
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -148,7 +148,7 @@ img:hover {
 /* footer */
 
 footer {
-    background-image: url(../assets/img/background_header.png);
+    background-image: url(../img/background_header.png);
     background-size: cover;
     display: flex;
     }
@@ -313,13 +313,13 @@ footer {
 @media screen and (max-width: 764px) {
     
     body {
-        width: 100vh;
+        width: 100vw;
         height: 100vh;
     }
 
     section {
-        margin-bottom: 0;
-        padding: 0;
+        margin-bottom: auto;
+        padding: auto;
     }
 
     article {
@@ -332,8 +332,8 @@ footer {
     }
     
     .section_margin {
-        margin: 0;
-        padding: 0;
+        margin: auto;
+        padding: auto;
     }
     
     .article_two {
@@ -351,7 +351,7 @@ footer {
     }
 
     .h_de_fin {
-        margin-top: 0;
+        margin-top: auto;
     }
 
     .ul_first {
@@ -369,7 +369,7 @@ footer {
 
     .ul_second {
         text-align: end;
-        padding: 0;
+        padding: auto;
     }
 
     footer #arrow {
