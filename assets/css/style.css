@@ -101,6 +101,17 @@ a:hover {
 
 body {
     background-color: #131010;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.flex {
+    display: flex;
 }
 
 section {
@@ -155,7 +166,7 @@ img:hover {
 footer {
     background-image: url(../img/background_header.png);
     background-size: cover;
-    display: flex;
+
     }
 
 .logo_size {
@@ -186,17 +197,22 @@ footer {
     margin-right: 1.563rem;
 }
 
-.btn {
+.fixed {
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 999;
+    bottom: 1.25rem;
+    right: 1.25rem;
+}
+
+.btn_top {
+    display: none;
     border-radius: 50%;
     background-color: #fff;
-    font-size: 5rem;
+    font-size: 3rem;
     color: black;
     border: 2px solid #fff;
     opacity: 0.3;
-    position: fixed;
-    z-index: 999;
-    right: 2rem;
-    bottom: 3rem;
 }
 
 
